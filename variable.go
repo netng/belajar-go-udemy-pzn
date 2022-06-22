@@ -19,4 +19,12 @@ func main() {
 
 	age := 60
 	fmt.Println(age)
+
+	var (
+		firstName = "ucrit"
+		lastName  = "joko"
+	)
+
+	fmt.Println(firstName)
+	fmt.Println(lastName)
 }
