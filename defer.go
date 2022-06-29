@@ -2,15 +2,16 @@ package main
 
 import "fmt"
 
-func logging() {
-	fmt.Println("logging")
+func log() {
+	fmt.Println("Selesai memanggil function")
 }
 
 func runApplication(value int) {
-	defer logging()
-	fmt.Println("run application")
+	defer log()
 	result := 10 / value
+	fmt.Println("Application running...")
 	fmt.Println(result)
+
 }
 
 func main() {
